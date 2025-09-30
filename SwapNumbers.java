@@ -15,10 +15,10 @@ public class SwapNumbers {
 
 
         //swap numbers without using the third vaiable
-        a=100;b=200;
-        temp=a+b;
-        a=temp-a;
-        b=temp-a;
+        a=1000;b=200;
+        a=a+b;
+        b=a-b;
+        a=a-b;
 
         System.out.println("Swapped numbers are,\na="+a+"\nb="+b);
 
